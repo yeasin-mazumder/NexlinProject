@@ -446,7 +446,7 @@ const ProductDetail = () => {
                     </div>
 
                     {data?.variants[0]?.options[0]?.size &&
-                      !isNaN(parseInt(data?.variants[0]?.options[0]?.size)) && (
+                       (
                         <div className="mt-4 text-2xl border-b pb-5 flex">
                           <p className="text-gray-400 mr-2 text-sm w-[20%]">
                             {parseInt(data?.variants[0]?.options[0]?.size)
